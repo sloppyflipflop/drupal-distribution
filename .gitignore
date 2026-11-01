@@ -1,0 +1,33 @@
+/.editorconfig
+/.gitattributes
+
+# Node dependencies
+/node_modules/
+
+# Composer dependencies
+/vendor/
+
+# Drupal core and contributed packages
+/docroot/core/
+/docroot/modules/contrib/
+/docroot/themes/contrib/
+/docroot/profiles/contrib/
+/docroot/libraries/
+
+# Drupal generated files and local settings
+/docroot/sites/*/files/
+/docroot/sites/*/settings.php
+/docroot/sites/*/settings.local.php
+/docroot/sites/*/services.local.yml
+
+# Local backups and temporary files
+/backups/
+/composer.starter.backup.json
+
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+
+# Keep project configuration and custom code tracked
+!/package.json

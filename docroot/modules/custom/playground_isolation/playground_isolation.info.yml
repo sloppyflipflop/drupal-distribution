@@ -1,0 +1,7 @@
+name: 'Playground Isolation'
+type: module
+description: 'Blocks ASU CAS authentication endpoints in the local playground.'
+package: Custom
+core_version_requirement: ^10
+dependencies:
+  - cas:cas

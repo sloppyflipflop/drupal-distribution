@@ -1,0 +1,5 @@
+services:
+  playground_isolation.route_subscriber:
+    class: Drupal\playground_isolation\EventSubscriber\CasRouteSubscriber
+    tags:
+      - { name: event_subscriber }
