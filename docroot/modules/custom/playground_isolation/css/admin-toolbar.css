@@ -1,0 +1,8 @@
+/*
+ * Keep Drupal's administration toolbar above the frontend header.
+ * Scoped to Webspark Playground.
+ */
+body.toolbar-fixed #toolbar-bar,
+body.toolbar-fixed #toolbar-administration .toolbar-tray {
+  z-index: 1300;
+}

@@ -1,0 +1,15 @@
+<?php
+
+/**
+ * @file
+ * Local Webspark Playground adjustments.
+ */
+
+/**
+ * Implements hook_page_attachments().
+ */
+function playground_isolation_page_attachments(array &$attachments): void {
+  if (\Drupal::currentUser()->hasPermission('access toolbar')) {
+    $attachments['#attached']['library'][] = 'playground_isolation/admin-toolbar';
+  }
+}
