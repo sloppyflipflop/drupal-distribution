@@ -1,4 +1,4 @@
-# Webspark Playground
+# Drupal Distribution
 
 A Drupal development project for exploring, extending, and evaluating Arizona State University's Webspark platform.
 
